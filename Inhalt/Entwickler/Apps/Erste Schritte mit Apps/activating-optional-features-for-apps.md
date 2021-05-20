@@ -21,7 +21,8 @@ topics:
 
 {% data reusables.user-settings.access_settings %}
 {% data reusables.user-settings.developer_settings %}
-3. Select the {% data variables.product.prodname_github_app %} you want to enable {% if currentVersion ver_lt "enterprise-server@3.1" %} a beta {% else %} an optional {% endif %} feature for.
+3. Select the {% data variables.product.prodname_github_app %} you want to enable {% if currentVersion ver_lt "enterprise-server@3.1" %} a beta {% else %} an optional {% endif %} feature for.![repository-open-graph-template](https://user-images.githubusercontent.com/65121885/118915787-ffba5300-b92d-11eb-996d-3c41f90e0cbe.png)
+
 {% data reusables.apps.optional_feature_activation %}
 
 ### Activating {% if currentVersion ver_lt "enterprise-server@3.1" %} beta {% else %} optional {% endif %} features for {% data variables.product.prodname_oauth_app %}s
